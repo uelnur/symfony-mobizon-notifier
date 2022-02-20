@@ -1,0 +1,29 @@
+{
+    "name": "uelnur/symfony-mobizon-notifier",
+    "description": "Mobizon.kz transport for Symfony Notifier",
+    "type": "library",
+    "require": {
+        "symfony/http-client-contracts": "^2.5",
+        "symfony/notifier": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uelnur\\SymfonyMobizonNotifier\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Uelnur\\SymfonyMobizonNotifier\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yelnur Urazymbetov",
+            "email": "311293e@gmail.com"
+        }
+    ]
+}
